@@ -12,7 +12,7 @@ body {
 .currentLocation {
   display: block;
   margin: 10px auto;
-  margin-top: 70px;
+  margin-top: 30px;
   border: 1px solid #065c6f;
   background: #065c6f;
   color: #fff;
@@ -57,7 +57,7 @@ a {
   margin-left: 10px;
 }
 .container {
-  max-width: 2000px;
+  max-width: 600px;
   padding: 15px 30px;
   border: 1px solid #212121;
   border-radius: 10px;
