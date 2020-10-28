@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+		/>
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    
+  </head>
+
+  <body>
+    <div class="container">
+      <form id="signup-form">
+        <div class="row">
+          <div class="col-10">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter city name"
+              autofocus ="on" id ="search-input"
+            />
+          </div>
+          <div class="col-2">
+						<button type="submit" class="btn btn-primary">Search</button>
+						
+          </div>
+        </div>
+      </form>
+     
+          <h1>Mumbai,India</h1>
+
+          <h3 class="today">
+            October 9<br />
+            9:00 A.M.<br />
+          </h3>
+						<span class ="description">Partly Cloudy</span>
+					
+          
+          <div class="row">
+              <div class="col-6">
+          <h2 class="degree">
+           <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" width="60"/> <span id ="degree">29</span>°<a href="#" id ="celsius">C</a>| <a href="#" id ="farenheit">F</a>
+					</h2>
+					
+       
+        </div>
+        <div class="col-6">
+          <ul>
+            <li id="pressure">Pressure: 2% </li>
+            <li id = "humidity">Humidity: 83% </li>
+            <li id ="wind">Wind: 0km/h </li>
+          </div>
+        </div>
+        <hr />
+      <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                  Sat<br />30°<a href="#">C</a>| <a href="#">F</a>
+                  <br />
+                  <img src="https://ssl.gstatic.com/onebox/weather/48/cloudy.png" width="60"/>  
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                  Sun<br />28°<a href="#">C</a>| <a href="#">F</a>
+                  <br />
+                  <img src="https://ssl.gstatic.com/onebox/weather/64/rain_s_cloudy.png" width="60"/>  
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                  Mon<br />33°<a href="#">C</a>| <a href="#">F</a>
+                  <br />
+                  <img src="https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png" width="60"/>  
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                  Tue<br />33°<a href="#">C</a>| <a href="#">F</a>
+                  <br />
+                  <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" width="60"/>  
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                  Wed<br />30°<a href="#">C</a>| <a href="#">F</a>
+                  <br />
+                  <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" width="60"/>  
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                  Thu<br />35°<a href="#">C</a>| <a href="#">F</a>
+                  <br />
+                  <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" width="60"/>  
+                </div>
+              </div>
+        </div>
+<br /> <br />
+<button type="submit" class="currentLocation">Current location </button>
+     
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

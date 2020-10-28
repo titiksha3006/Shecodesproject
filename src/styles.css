@@ -1,0 +1,105 @@
+body {
+  padding: 100px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: bold;
+}
+.btn-primary {
+  background-color: #065c6f;
+}
+.btn-primary:hover {
+  background-color: #637373;
+}
+.currentLocation {
+  display: block;
+  margin: 10px auto;
+  margin-top: 30px;
+  border: 1px solid #065c6f;
+  background: #065c6f;
+  color: #fff;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: all 200ms ease;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  cursor: pointer;
+}
+.currentLocation:hover {
+  background-color: #637373;
+}
+.currentLocation:focus {
+  background-color: #007bff;
+}
+h1 {
+  color: #0f3057;
+  text-align: center;
+  margin-top: 35px;
+  margin-left: 10px;
+}
+a {
+  color: #0f3057;
+}
+.today {
+  color: #0f3057;
+  text-align: center;
+  margin-top: 0px;
+  font-weight: normal;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.description {
+  display: block;
+  color: #0f3057;
+  text-align: center;
+  margin-top: 0px;
+  font-weight: normal;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.container {
+  max-width: 900px;
+  padding: 15px 30px;
+  border: 1px solid #212121;
+  border-radius: 10px;
+  margin: 25px auto;
+  margin-bottom: 0px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+  background-image: linear-gradient(
+    to top,
+    #f3e7e9 0%,
+    #e3eeff 99%,
+    #e3eeff 100%
+  );
+}
+.degree {
+  color: #0f3057;
+  text-align: right;
+  margin-top: 10px;
+  font-size: 25px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+ul {
+  line-height: 22px;
+  margin-top: 10px;
+  list-style: none;
+  color: #0f3057;
+  margin-left: 20px;
+}
+hr {
+  border: 0.5px solid #0f3057;
+}
+.card {
+  border: 1px solid #0f3057;
+  border-radius: 10px;
+  margin: 5px auto;
+  padding: 2px auto;
+  text-align: center;
+  color: #0f3057;
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  max-width: 100px;
+}
+.card:hover {
+  background-image: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
+}
